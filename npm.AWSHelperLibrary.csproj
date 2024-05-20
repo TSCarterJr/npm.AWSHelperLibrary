@@ -9,7 +9,7 @@
     <Company>Tim Carter</Company>
     <Description>A helper library for fetching AWS EC2 instance metadata and enriching logs.</Description>
     <PackageTags>AWS EC2 Metadata Logging</PackageTags>
-    <RepositoryUrl>https://github.com/your-repo</RepositoryUrl>
+    <RepositoryUrl>https://github.com/TSCarterJr/npm.AWSHelperLibrary</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
