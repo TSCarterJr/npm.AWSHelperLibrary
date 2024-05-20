@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>AwsMetadataHelper</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>Tim Carter</Authors>
+    <Company>Tim Carter</Company>
+    <Description>A helper library for fetching AWS EC2 instance metadata and enriching logs.</Description>
+    <PackageTags>AWS EC2 Metadata Logging</PackageTags>
+    <RepositoryUrl>https://github.com/your-repo</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.SecretsManager" Version="3.7.302.66" />
+    <PackageReference Include="AWSSDK.SecretsManager.Caching" Version="1.0.6" />
+  </ItemGroup>
+
+</Project>
